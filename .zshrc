@@ -128,3 +128,5 @@ function togglehost(){
         echo "Host file is set aside"
    fi
 }
+
+eval $(thefuck --alias)
