@@ -119,3 +119,12 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+function togglehost(){
+   if [ -e "/etc/hosts.bak" ]; then
+        sudo mv /etc/hosts.bak /etc/hosts
+        echo "Hosts file is active again"
+   else
+        sudo mv /etc/hosts /etc/hosts.bak
+        echo "Host file is set aside"
+   fi
+}
