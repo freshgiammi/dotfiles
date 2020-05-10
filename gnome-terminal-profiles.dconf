@@ -1,0 +1,25 @@
+[/]
+default='b9515fb2-5cff-4ea5-b01c-5a8b9a315165'
+list=['1f9306ab-4009-4be1-910b-0b5c71aa7596', 'b9515fb2-5cff-4ea5-b01c-5a8b9a315165']
+
+[:1f9306ab-4009-4be1-910b-0b5c71aa7596]
+background-color='#282A36'
+bold-color='#6E46A4'
+bold-color-same-as-fg=false
+foreground-color='#F8F8F2'
+palette=['rgb(38,38,38)', 'rgb(227,86,167)', 'rgb(66,230,108)', 'rgb(228,243,74)', 'rgb(155,107,223)', 'rgb(230,71,71)', 'rgb(117,215,236)', 'rgb(239,165,84)', 'rgb(122,122,122)', 'rgb(255,121,198)', 'rgb(80,250,123)', 'rgb(241,250,140)', 'rgb(189,147,249)', 'rgb(255,85,85)', 'rgb(139,233,253)', 'rgb(255,184,108)']
+use-theme-colors=false
+visible-name='Dracula'
+
+[:b9515fb2-5cff-4ea5-b01c-5a8b9a315165]
+background-color='rgb(28,28,28)'
+bold-color='#6E46A4'
+bold-color-same-as-fg=false
+cursor-shape='block'
+font='JetBrains Mono 11'
+foreground-color='rgb(208,208,208)'
+login-shell=false
+palette=['rgb(38,38,38)', 'rgb(218,73,57)', 'rgb(66,230,108)', 'rgb(228,243,74)', 'rgb(109,156,190)', 'rgb(230,71,71)', 'rgb(117,215,236)', 'rgb(208,208,208)', 'rgb(122,122,122)', 'rgb(255,123,107)', 'rgb(80,250,123)', 'rgb(241,250,140)', 'rgb(135,206,235)', 'rgb(255,85,85)', 'rgb(139,233,253)', 'rgb(245,245,245)']
+use-system-font=false
+use-theme-colors=false
+visible-name='Customized'
