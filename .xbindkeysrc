@@ -64,8 +64,8 @@
 "xte 'key Super_L'"
 b:2 + release
 
-"xte 'keydown Super_L' 'key Page_Down' 'keyup Super_L'"
+"xte 'keydown Super_L' 'keydown Control_L'  'key Right' 'keyup Control_L' 'keyup Super_L'"
 b:8 + release
 
-"xte 'keydown Super_L' 'key Page_Up' 'keyup Super_L'"
+"xte 'keydown Super_L' 'keydown Control_L'  'key Left' 'keyup Control_L' 'keyup Super_L'"
 b:9 + release
