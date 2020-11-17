@@ -99,8 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 neofetch
-
 eval $(thefuck --alias)
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias update-initramfs="sudo mkinitcpio -p linux"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -126,3 +127,4 @@ function togglehost(){
         echo "Host file is set aside"
    fi
 }
+

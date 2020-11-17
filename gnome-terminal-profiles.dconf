@@ -1,8 +1,57 @@
 [/]
-default='b9515fb2-5cff-4ea5-b01c-5a8b9a315165'
-list=['1f9306ab-4009-4be1-910b-0b5c71aa7596', 'b9515fb2-5cff-4ea5-b01c-5a8b9a315165']
+default='1f9306ab-4009-4be1-910b-0b5c71aa7596'
+list=['1f9306ab-4009-4be1-910b-0b5c71aa7596', '6ebace68-476a-40f0-922b-74148e560b1d']
 
 [:1f9306ab-4009-4be1-910b-0b5c71aa7596]
+background-color='rgb(46,52,54)'
+bold-color='#6E46A4'
+bold-color-same-as-fg=false
+bold-is-bright=false
+cursor-blink-mode='system'
+default-size-columns=132
+default-size-rows=43
+font='Fira Code 10'
+foreground-color='rgb(211,215,207)'
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(228,177,112)', 'rgb(196,160,0)', 'rgb(137,154,175)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-system-font=false
+use-theme-colors=true
+visible-name='Dracula'
+
+[:6ebace68-476a-40f0-922b-74148e560b1d]
+background-color='rgb(60,60,60)'
+bold-color='#6E46A4'
+bold-color-same-as-fg=false
+bold-is-bright=false
+cursor-blink-mode='system'
+default-size-columns=132
+default-size-rows=43
+font='Fira Code 10'
+foreground-color='#F8F8F2'
+palette=['rgb(255,255,255)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(181,181,181)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-system-font=false
+use-theme-colors=true
+visible-name='Dracula-Light'
+
+[:8bfe56e6-1f79-4408-94d2-4d14fdbe159b]
+allow-bold=true
+background-color='#1f1f1f1f1f1f'
+bold-color='#b9b9bcbcbaba'
+bold-color-same-as-fg=true
+default='b9515fb2-5cff-4ea5-b01c-5a8b9a315165'
+default-size-columns=132
+default-size-rows=43
+foreground-color='#b9b9bcbcbaba'
+highlight-background-color='#'
+highlight-colors-set=true
+highlight-foreground-color='#'
+list=['1f9306ab-4009-4be1-910b-0b5c71aa7596', 'b9515fb2-5cff-4ea5-b01c-5a8b9a315165']
+palette=['#3a3a3d3d4343', '#bebe3f3f4848', '#87879a9a3b3b', '#c5c5a6a63535', '#4f4f7676a1a1', '#85855c5c8d8d', '#57578f8fa4a4', '#b9b9bcbcbaba', '#888889898787', '#fbfb00001f1f', '#0f0f72722f2f', '#c4c470703333', '#18186d6de3e3', '#fbfb00006767', '#2e2e70706d6d', '#fdfdffffb9b9']
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Dimmed Monokai'
+
+[:8bfe56e6-1f79-4408-94d2-4d14fdbe159b/:1f9306ab-4009-4be1-910b-0b5c71aa7596]
 background-color='#282A36'
 bold-color='#6E46A4'
 bold-color-same-as-fg=false
@@ -11,7 +60,7 @@ palette=['rgb(38,38,38)', 'rgb(227,86,167)', 'rgb(66,230,108)', 'rgb(228,243,74)
 use-theme-colors=false
 visible-name='Dracula'
 
-[:b9515fb2-5cff-4ea5-b01c-5a8b9a315165]
+[:8bfe56e6-1f79-4408-94d2-4d14fdbe159b/:b9515fb2-5cff-4ea5-b01c-5a8b9a315165]
 background-color='rgb(28,28,28)'
 bold-color='#6E46A4'
 bold-color-same-as-fg=false
@@ -23,3 +72,23 @@ palette=['rgb(38,38,38)', 'rgb(218,73,57)', 'rgb(66,230,108)', 'rgb(228,243,74)'
 use-system-font=false
 use-theme-colors=false
 visible-name='Customized'
+
+[:b2c9b170-d873-4c93-9a3b-18e91b2e5a5d]
+visible-name='Default'
+
+[:b416ca09-96a6-4f14-8221-0f63f6038c33]
+allow-bold=true
+background-color='#222223232424'
+bold-color='#babababababa'
+bold-color-same-as-fg=true
+default-size-columns=100
+default-size-rows=30
+foreground-color='#babababababa'
+highlight-background-color='#'
+highlight-colors-set=true
+highlight-foreground-color='#'
+palette=['#000000000000', '#e8e834341c1c', '#6868c2c25656', '#f2f2d4d42c2c', '#1c1c9898e8e8', '#8e8e6969c9c9', '#1c1c9898e8e8', '#babababababa', '#000000000000', '#e0e05a5a4f4f', '#7777b8b86969', '#efefd6d64b4b', '#38387c7cd3d3', '#95957b7bbebe', '#3d3d9797e2e2', '#babababababa']
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Darkside'
