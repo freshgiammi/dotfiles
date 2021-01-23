@@ -112,7 +112,10 @@ source $ZSH/oh-my-zsh.sh
 eval $(thefuck --alias)
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias update-initramfs="sudo mkinitcpio -p linux"
+alias docker-start="systemctl start docker"
+alias docker-stop="systemctl stop docker"
 alias ls="ls -l"
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
