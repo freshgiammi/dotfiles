@@ -1,0 +1,17 @@
+# I often fuck up commands.
+eval $(thefuck --alias)
+
+# This is because I used to run ubuntu and keep forgetting about how to update grub.
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias update-initramfs="sudo mkinitcpio -p linux"
+
+# Docker is annoying, but I love it.
+alias docker-start="systemctl start docker"
+alias docker-stop="systemctl stop docker"
+
+# This is because ls and cat suck. Maybe switch ls to exa?
+alias ls="ls -alh --color=auto"
+alias cat='bat'
+
+# This is just useful stuff honestly.
+alias mkdir='mkdir -p'

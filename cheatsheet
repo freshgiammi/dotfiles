@@ -1,0 +1,12 @@
+﻿#Docker: update all images
+docker images | grep -v ^REPO | sed 's/ \+/:/g' | cut -d: -f1,2 | xargs -L1 docker pull
+docker image prune
+
+#Docker: access container shell
+docker exec -it <CONTAINER_NAME> bash
+
+#Docker: dumb mongodb collection to json file
+mongoexport --collection=COLLECTION_NAME --db=DB_NAME --out=out.json
+
+#Docker: export container as .tar
+docker export CONTAINER_NAME>out.tar
