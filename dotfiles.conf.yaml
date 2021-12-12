@@ -17,6 +17,9 @@
     ~/.zshrc:
       force: true 
       path: zshrc
+    ~/.albertignore:
+      force: true 
+      path: albertignore
     ~/.aliases:
       force: true 
       path: aliases
