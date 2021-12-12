@@ -14,6 +14,6 @@ if [ ! -d "$OMZDIR" ]; then
   echo 'Installing oh-my-zsh'
   /bin/sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 else
-  echo 'Updating oh-my-zsh'
-  omz update
+  echo 'Updating oh-my-zsh, changing shell to zsh'
+  env ZSH=$ZSH /bin/sh $ZSH/tools/upgrade.sh
 fi
