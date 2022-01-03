@@ -2,12 +2,17 @@
   - zsh
   - bat
   - spotify
+  - firefox-developer-edition
+  - chromium
   - discord
   - docker
+  - docker-compose
+  - kitematic
   - visual-studio-code-bin
   - bitwarden
   - evolution
   - gnome-calendar
+  - gnome-shell-extension-pop-shell-bin
   - xdg-desktop-portal
   - libva-utils
   - intel-gpu-tools
