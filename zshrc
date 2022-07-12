@@ -108,3 +108,4 @@ source $ZSH/oh-my-zsh.sh
 
 # This contains all my custom aliases.
 source ~/.aliases;
+export PATH=~/.local/bin/:$PATH
