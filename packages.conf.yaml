@@ -7,7 +7,7 @@
   - discord
   - docker
   - docker-compose
-  - kitematic
+  - lazydocker
   - visual-studio-code-bin
   - bitwarden
   - evolution
@@ -44,8 +44,12 @@
   - bluez
   - bluez-utils
   - jdk-openjdk
-  - notion-app
+  - notion-app-enhanced
   - qbittorrent
   - stremio
   - baobab
   - figma-linux
+  - wireguard-go-git
+  - logiops
+  - bpytop
+  - libreoffice
