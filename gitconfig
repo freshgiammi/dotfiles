@@ -1,6 +1,7 @@
 [user]
     email = rengucci.gianmarco@gmail.com
     name = Gianmarco Rengucci (freshgiammi)
+	signingKey = 864A2300
 [alias]
     aa = add --all
     ap = add --patch
@@ -15,3 +16,5 @@
     defaultBranch = master
 [credential]
     helper = store
+[commit]
+	gpgsign = true
