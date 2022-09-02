@@ -13,6 +13,7 @@
   - evolution
   - gnome-calendar
   - gnome-shell-extension-pop-shell-bin
+  - gnome-shell-extensions
   - xdg-desktop-portal
   - libva-utils
   - intel-gpu-tools

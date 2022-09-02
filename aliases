@@ -9,8 +9,8 @@ alias update-initramfs="sudo mkinitcpio -p linux"
 alias docker-start="systemctl start docker"
 alias docker-stop="systemctl stop docker"
 
-# This is because ls and cat suck. Maybe switch ls to exa?
-alias ls="ls -alh --color=auto"
+# This is because ls and cat suck.
+alias exa="exa -alh"
 alias cat='bat'
 
 # This is just useful stuff honestly.
