@@ -33,7 +33,7 @@
   - libmicrodns
   - nss-mdns
   - fx_cast-bin
-  - chrome-gnome-shell
+  - gnome-browser-connector
   - nano-syntax-highlighting
   - thefuck
   - deja-dup
@@ -50,8 +50,7 @@
   - qbittorrent
   - stremio
   - baobab
-  - figma-linux
-  - wireguard-go-git
+  - figma-linux-bin
   - logiops
   - bpytop
   - libreoffice
