@@ -3,6 +3,10 @@
   - bat
   - spotify
   - firefox-developer-edition
+  - firefox-gnome-theme-git
+  - gradience-git
+  - yubioath-desktop
+  - yubikey-manager-qt
   - chromium
   - discord
   - docker
@@ -48,7 +52,8 @@
   - jdk-openjdk
   - notion-app-enhanced
   - qbittorrent
-  - stremio
+  - nodejs-lts-hydrogen
+  - stremio-beta
   - baobab
   - figma-linux-bin
   - logiops

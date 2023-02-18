@@ -18,3 +18,5 @@
     helper = store
 [commit]
 	gpgsign = true
+[protocol "file"]
+	allow = always
