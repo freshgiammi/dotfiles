@@ -1,10 +1,9 @@
 - yay:
   - zsh
+  - starship
   - bat
   - spotify
   - firefox-developer-edition
-  - firefox-gnome-theme-git
-  - gradience-git
   - yubioath-desktop
   - yubikey-manager-qt
   - chromium
@@ -16,7 +15,7 @@
   - bitwarden
   - evolution
   - gnome-calendar
-  - gnome-shell-extension-pop-shell-bin
+  - gnome-shell-extension-pop-shell
   - gnome-shell-extensions
   - xdg-desktop-portal
   - libva-utils
@@ -46,16 +45,30 @@
   - android-tools
   - paper-icon-theme-git
   - obs-studio
-  - neofetch
+  - pfetch
   - bluez
   - bluez-utils
   - jdk-openjdk
-  - notion-app-enhanced
+  - notion-app-electron
   - qbittorrent
-  - nodejs-lts-hydrogen
-  - stremio-beta
   - baobab
   - figma-linux-bin
   - logiops
   - bpytop
   - libreoffice
+  - pacman-contrib
+  - albert
+  - htop
+  - intel-undervolt
+  - gnome-console
+  - logiops  
+  - fprintd
+  - libfprint-tod-git
+  - libfprint-2-tod1-xps9300-bin
+  - usbutils
+  - cups
+  - cups-pdf
+  - epson-inkjet-printer-escpr
+  - easyeffects
+  - lsp-plugins
+  - calf
