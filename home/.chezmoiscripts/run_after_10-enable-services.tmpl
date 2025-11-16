@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# chezmoi:template:left-delimiter="# {{" right-delimiter=}}
+
+# {{ template "scripts-library" }}
+
+services=(
+    logid
+    lactd
+)
+
+userservices=(
+    vicinae
+)
+
+log_task "Enabling systemd services"
+
+for service in "${services[@]}"; do
+    sudo systemctl enable "$service"
+done
+
+for userservice in "${userservices[@]}"; do
+    systemctl --user enable "$userservice" --now
+done

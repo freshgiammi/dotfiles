@@ -1,0 +1,29 @@
+{{- $name := "Gianmarco Rengucci" -}}
+{{- $email := "rengucci.gianmarco@gmail.com" -}}
+
+{{- if hasKey . "name" -}}
+{{-   $name = .name -}}
+{{- end -}}
+
+{{- $name = promptString "❔ What is your full name" $name -}}
+{{- writeToStdout (printf "✅ Name set as '%s'\n" $name) -}}
+
+{{- if hasKey . "email" -}}
+{{-   $email = .email -}}
+{{- end -}}
+
+{{- $email = promptString "❔ What is your email" $email | lower -}}
+{{- writeToStdout (printf "✅ Email set as '%s'\n" $email) -}}
+
+sourceDir: "{{ .chezmoi.workingTree }}"
+
+diff:
+  exclude:
+    - scripts
+status:
+  exclude:
+    - always
+
+data:
+  name: "{{ $name }}"
+  email: "{{ $email }}"

@@ -1,0 +1,13 @@
+{{ if eq .chezmoi.os "linux" -}}
+#!/bin/bash
+
+# Install pacman packages
+{{ range .packages.linux.pacman -}}
+sudo pacman -S --noconfirm --needed {{ . | quote }}
+{{ end -}}
+
+# Install yay packages
+{{ range .packages.linux.yay -}}
+yay -S --noconfirm --needed {{ . | quote }}
+{{ end -}}
+{{ end -}}

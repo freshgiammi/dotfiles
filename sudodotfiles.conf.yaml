@@ -1,8 +1,0 @@
-- sudo:
-    - clean: ['/etc']
-    - link: 
-        /etc/:
-            force: true
-            glob: true
-            path: etc/**
-            relink: true 

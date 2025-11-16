@@ -1,0 +1,14 @@
+{{- $sourceDir := joinPath .chezmoi.workingTree "root" -}}
+sourceDir: "{{ $sourceDir }}"
+
+destDir: "/"
+
+# https://github.com/twpayne/chezmoi/issues/3257
+pager: ""
+
+diff:
+  exclude:
+    - scripts
+status:
+  exclude:
+    - always
