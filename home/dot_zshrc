@@ -85,9 +85,6 @@ alias jctl="journalctl -p 3 -xb"
 # Recent installed packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
-# Bat is a cat clone with wings.
-alias cat='bat'
-
 # This is just useful stuff honestly.
 alias mkdir='mkdir -p'
 
